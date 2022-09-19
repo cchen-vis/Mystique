@@ -1,0 +1,209 @@
+Date,Industry,Unemployment,Gender
+1/1/08,Manufacturing,837,male
+2/1/08,Manufacturing,820,male
+3/1/08,Manufacturing,831,male
+4/1/08,Manufacturing,796,male
+5/1/08,Manufacturing,879,male
+6/1/08,Manufacturing,862,male
+7/1/08,Manufacturing,908,male
+8/1/08,Manufacturing,960,male
+9/1/08,Manufacturing,984,male
+10/1/08,Manufacturing,1007,male
+11/1/08,Manufacturing,1144,male
+12/1/08,Manufacturing,1315,male
+1/1/09,Manufacturing,1711,male
+2/1/09,Manufacturing,1822,male
+3/1/09,Manufacturing,1912,male
+4/1/09,Manufacturing,1968,male
+5/1/09,Manufacturing,2010,male
+6/1/09,Manufacturing,2010,male
+7/1/09,Manufacturing,1988,male
+8/1/09,Manufacturing,1866,male
+9/1/09,Manufacturing,1876,male
+10/1/09,Manufacturing,1884,male
+11/1/09,Manufacturing,1882,male
+12/1/09,Manufacturing,1747,male
+1/1/10,Manufacturing,1918,male
+2/1/10,Manufacturing,1814,male
+1/1/08,Leisure and hospitality,1176,male
+2/1/08,Leisure and hospitality,1056,male
+3/1/08,Leisure and hospitality,944,male
+4/1/08,Leisure and hospitality,874,male
+5/1/08,Leisure and hospitality,1074,male
+6/1/08,Leisure and hospitality,1154,male
+7/1/08,Leisure and hospitality,1172,male
+8/1/08,Leisure and hospitality,1122,male
+9/1/08,Leisure and hospitality,1029,male
+10/1/08,Leisure and hospitality,1126,male
+11/1/08,Leisure and hospitality,1283,male
+12/1/08,Leisure and hospitality,1210,male
+1/1/09,Leisure and hospitality,1487,male
+2/1/09,Leisure and hospitality,1477,male
+3/1/09,Leisure and hospitality,1484,male
+4/1/09,Leisure and hospitality,1322,male
+5/1/09,Leisure and hospitality,1599,male
+6/1/09,Leisure and hospitality,1688,male
+7/1/09,Leisure and hospitality,1600,male
+8/1/09,Leisure and hospitality,1636,male
+9/1/09,Leisure and hospitality,1469,male
+10/1/09,Leisure and hospitality,1604,male
+11/1/09,Leisure and hospitality,1524,male
+12/1/09,Leisure and hospitality,1624,male
+1/1/10,Leisure and hospitality,1804,male
+2/1/10,Leisure and hospitality,1597,male
+1/1/08,Business services,893,male
+2/1/08,Business services,866,male
+3/1/08,Business services,876,male
+4/1/08,Business services,736,male
+5/1/08,Business services,829,male
+6/1/08,Business services,890,male
+7/1/08,Business services,866,male
+8/1/08,Business services,961,male
+9/1/08,Business services,951,male
+10/1/08,Business services,1052,male
+11/1/08,Business services,992,male
+12/1/08,Business services,1147,male
+1/1/09,Business services,1445,male
+2/1/09,Business services,1512,male
+3/1/09,Business services,1597,male
+4/1/09,Business services,1448,male
+5/1/09,Business services,1514,male
+6/1/09,Business services,1580,male
+7/1/09,Business services,1531,male
+8/1/09,Business services,1560,male
+9/1/09,Business services,1596,male
+10/1/09,Business services,1488,male
+11/1/09,Business services,1514,male
+12/1/09,Business services,1486,male
+1/1/10,Business services,1614,male
+2/1/10,Business services,1740,male
+1/1/08,Construction,1099,male
+2/1/08,Construction,1118,male
+3/1/08,Construction,1170,male
+4/1/08,Construction,1057,male
+5/1/08,Construction,809,male
+6/1/08,Construction,785,male
+7/1/08,Construction,783,male
+8/1/08,Construction,814,male
+9/1/08,Construction,970,male
+10/1/08,Construction,1078,male
+11/1/08,Construction,1237,male
+12/1/08,Construction,1438,male
+1/1/09,Construction,1744,male
+2/1/09,Construction,2025,male
+3/1/09,Construction,1979,male
+4/1/09,Construction,1737,male
+5/1/09,Construction,1768,male
+6/1/09,Construction,1601,male
+7/1/09,Construction,1687,male
+8/1/09,Construction,1542,male
+9/1/09,Construction,1594,male
+10/1/09,Construction,1744,male
+11/1/09,Construction,1780,male
+12/1/09,Construction,2044,male
+1/1/10,Construction,2194,male
+2/1/10,Construction,2440,male
+1/1/08,Manufacturing,837,female
+2/1/08,Manufacturing,820,female
+3/1/08,Manufacturing,831,female
+4/1/08,Manufacturing,796,female
+5/1/08,Manufacturing,879,female
+6/1/08,Manufacturing,862,female
+7/1/08,Manufacturing,908,female
+8/1/08,Manufacturing,960,female
+9/1/08,Manufacturing,984,female
+10/1/08,Manufacturing,1007,female
+11/1/08,Manufacturing,1144,female
+12/1/08,Manufacturing,1315,female
+1/1/09,Manufacturing,1711,female
+2/1/09,Manufacturing,1822,female
+3/1/09,Manufacturing,1912,female
+4/1/09,Manufacturing,1968,female
+5/1/09,Manufacturing,2010,female
+6/1/09,Manufacturing,2010,female
+7/1/09,Manufacturing,1988,female
+8/1/09,Manufacturing,1866,female
+9/1/09,Manufacturing,1876,female
+10/1/09,Manufacturing,1884,female
+11/1/09,Manufacturing,1882,female
+12/1/09,Manufacturing,1747,female
+1/1/10,Manufacturing,1918,female
+2/1/10,Manufacturing,1814,female
+1/1/08,Leisure and hospitality,1176,female
+2/1/08,Leisure and hospitality,1056,female
+3/1/08,Leisure and hospitality,944,female
+4/1/08,Leisure and hospitality,874,female
+5/1/08,Leisure and hospitality,1074,female
+6/1/08,Leisure and hospitality,1154,female
+7/1/08,Leisure and hospitality,1172,female
+8/1/08,Leisure and hospitality,1122,female
+9/1/08,Leisure and hospitality,1029,female
+10/1/08,Leisure and hospitality,1126,female
+11/1/08,Leisure and hospitality,1283,female
+12/1/08,Leisure and hospitality,1210,female
+1/1/09,Leisure and hospitality,1487,female
+2/1/09,Leisure and hospitality,1477,female
+3/1/09,Leisure and hospitality,1484,female
+4/1/09,Leisure and hospitality,1322,female
+5/1/09,Leisure and hospitality,1599,female
+6/1/09,Leisure and hospitality,1688,female
+7/1/09,Leisure and hospitality,1600,female
+8/1/09,Leisure and hospitality,1636,female
+9/1/09,Leisure and hospitality,1469,female
+10/1/09,Leisure and hospitality,1604,female
+11/1/09,Leisure and hospitality,1524,female
+12/1/09,Leisure and hospitality,1624,female
+1/1/10,Leisure and hospitality,1804,female
+2/1/10,Leisure and hospitality,1597,female
+1/1/08,Business services,893,female
+2/1/08,Business services,866,female
+3/1/08,Business services,876,female
+4/1/08,Business services,736,female
+5/1/08,Business services,829,female
+6/1/08,Business services,890,female
+7/1/08,Business services,866,female
+8/1/08,Business services,961,female
+9/1/08,Business services,951,female
+10/1/08,Business services,1052,female
+11/1/08,Business services,992,female
+12/1/08,Business services,1147,female
+1/1/09,Business services,1445,female
+2/1/09,Business services,1512,female
+3/1/09,Business services,1597,female
+4/1/09,Business services,1448,female
+5/1/09,Business services,1514,female
+6/1/09,Business services,1580,female
+7/1/09,Business services,1531,female
+8/1/09,Business services,1560,female
+9/1/09,Business services,1596,female
+10/1/09,Business services,1488,female
+11/1/09,Business services,1514,female
+12/1/09,Business services,1486,female
+1/1/10,Business services,1614,female
+2/1/10,Business services,1740,female
+1/1/08,Construction,1099,female
+2/1/08,Construction,1118,female
+3/1/08,Construction,1170,female
+4/1/08,Construction,1057,female
+5/1/08,Construction,809,female
+6/1/08,Construction,785,female
+7/1/08,Construction,783,female
+8/1/08,Construction,814,female
+9/1/08,Construction,970,female
+10/1/08,Construction,1078,female
+11/1/08,Construction,1237,female
+12/1/08,Construction,1438,female
+1/1/09,Construction,1744,female
+2/1/09,Construction,2025,female
+3/1/09,Construction,1979,female
+4/1/09,Construction,1737,female
+5/1/09,Construction,1768,female
+6/1/09,Construction,1601,female
+7/1/09,Construction,1687,female
+8/1/09,Construction,1542,female
+9/1/09,Construction,1594,female
+10/1/09,Construction,1744,female
+11/1/09,Construction,1780,female
+12/1/09,Construction,2044,female
+1/1/10,Construction,2194,female
+2/1/10,Construction,2440,female

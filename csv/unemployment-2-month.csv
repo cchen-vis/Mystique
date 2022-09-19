@@ -1,0 +1,49 @@
+month,industry,unemployments
+01,Manufacturing,1711
+02,Manufacturing,1822
+03,Manufacturing,1912
+04,Manufacturing,1968
+05,Manufacturing,2010
+06,Manufacturing,2010
+07,Manufacturing,1988
+08,Manufacturing,1866
+09,Manufacturing,1876
+10,Manufacturing,1884
+11,Manufacturing,1882
+12,Manufacturing,1747
+01,Leisure and hospitality,1487
+02,Leisure and hospitality,1477
+03,Leisure and hospitality,1484
+04,Leisure and hospitality,1322
+05,Leisure and hospitality,1599
+06,Leisure and hospitality,1688
+07,Leisure and hospitality,1600
+08,Leisure and hospitality,1636
+09,Leisure and hospitality,1469
+10,Leisure and hospitality,1604
+11,Leisure and hospitality,1524
+12,Leisure and hospitality,1624
+01,Business services,1445
+02,Business services,1512
+03,Business services,1597
+04,Business services,1448
+05,Business services,1514
+06,Business services,1580
+07,Business services,1531
+08,Business services,1560
+09,Business services,1596
+10,Business services,1488
+11,Business services,1514
+12,Business services,1486
+01,Construction,1744
+02,Construction,2025
+03,Construction,1979
+04,Construction,1737
+05,Construction,1768
+06,Construction,1601
+07,Construction,1687
+08,Construction,1542
+09,Construction,1594
+10,Construction,1744
+11,Construction,1780
+12,Construction,2044

@@ -1,0 +1,731 @@
+﻿date,location,meanTemp,Week,DayOfWeek
+1/1/15,"San Francisco, CA",48,1,Thu
+1/2/15,"San Francisco, CA",45,1,Fri
+1/3/15,"San Francisco, CA",46,1,Sat
+1/4/15,"San Francisco, CA",48,2,Sun
+1/5/15,"San Francisco, CA",51,2,Mon
+1/6/15,"San Francisco, CA",52,2,Tue
+1/7/15,"San Francisco, CA",53,2,Wed
+1/8/15,"San Francisco, CA",55,2,Thu
+1/9/15,"San Francisco, CA",57,2,Fri
+1/10/15,"San Francisco, CA",55,2,Sat
+1/11/15,"San Francisco, CA",52,3,Sun
+1/12/15,"San Francisco, CA",55,3,Mon
+1/13/15,"San Francisco, CA",55,3,Tue
+1/14/15,"San Francisco, CA",51,3,Wed
+1/15/15,"San Francisco, CA",52,3,Thu
+1/16/15,"San Francisco, CA",53,3,Fri
+1/17/15,"San Francisco, CA",55,3,Sat
+1/18/15,"San Francisco, CA",57,4,Sun
+1/19/15,"San Francisco, CA",56,4,Mon
+1/20/15,"San Francisco, CA",55,4,Tue
+1/21/15,"San Francisco, CA",55,4,Wed
+1/22/15,"San Francisco, CA",52,4,Thu
+1/23/15,"San Francisco, CA",56,4,Fri
+1/24/15,"San Francisco, CA",57,4,Sat
+1/25/15,"San Francisco, CA",56,5,Sun
+1/26/15,"San Francisco, CA",56,5,Mon
+1/27/15,"San Francisco, CA",61,5,Tue
+1/28/15,"San Francisco, CA",57,5,Wed
+1/29/15,"San Francisco, CA",58,5,Thu
+1/30/15,"San Francisco, CA",57,5,Fri
+1/31/15,"San Francisco, CA",61,5,Sat
+2/1/15,"San Francisco, CA",55,6,Sun
+2/2/15,"San Francisco, CA",58,6,Mon
+2/3/15,"San Francisco, CA",59,6,Tue
+2/4/15,"San Francisco, CA",57,6,Wed
+2/5/15,"San Francisco, CA",59,6,Thu
+2/6/15,"San Francisco, CA",61,6,Fri
+2/7/15,"San Francisco, CA",62,6,Sat
+2/8/15,"San Francisco, CA",61,7,Sun
+2/9/15,"San Francisco, CA",59,7,Mon
+2/10/15,"San Francisco, CA",56,7,Tue
+2/11/15,"San Francisco, CA",58,7,Wed
+2/12/15,"San Francisco, CA",62,7,Thu
+2/13/15,"San Francisco, CA",61,7,Fri
+2/14/15,"San Francisco, CA",63,7,Sat
+2/15/15,"San Francisco, CA",63,8,Sun
+2/16/15,"San Francisco, CA",60,8,Mon
+2/17/15,"San Francisco, CA",56,8,Tue
+2/18/15,"San Francisco, CA",59,8,Wed
+2/19/15,"San Francisco, CA",58,8,Thu
+2/20/15,"San Francisco, CA",61,8,Fri
+2/21/15,"San Francisco, CA",58,8,Sat
+2/22/15,"San Francisco, CA",57,9,Sun
+2/23/15,"San Francisco, CA",58,9,Mon
+2/24/15,"San Francisco, CA",55,9,Tue
+2/25/15,"San Francisco, CA",57,9,Wed
+2/26/15,"San Francisco, CA",59,9,Thu
+2/27/15,"San Francisco, CA",58,9,Fri
+2/28/15,"San Francisco, CA",56,9,Sat
+3/1/15,"San Francisco, CA",57,10,Sun
+3/2/15,"San Francisco, CA",56,10,Mon
+3/3/15,"San Francisco, CA",56,10,Tue
+3/4/15,"San Francisco, CA",56,10,Wed
+3/5/15,"San Francisco, CA",58,10,Thu
+3/6/15,"San Francisco, CA",60,10,Fri
+3/7/15,"San Francisco, CA",61,10,Sat
+3/8/15,"San Francisco, CA",57,11,Sun
+3/9/15,"San Francisco, CA",59,11,Mon
+3/10/15,"San Francisco, CA",56,11,Tue
+3/11/15,"San Francisco, CA",62,11,Wed
+3/12/15,"San Francisco, CA",62,11,Thu
+3/13/15,"San Francisco, CA",64,11,Fri
+3/14/15,"San Francisco, CA",70,11,Sat
+3/15/15,"San Francisco, CA",65,12,Sun
+3/16/15,"San Francisco, CA",63,12,Mon
+3/17/15,"San Francisco, CA",59,12,Tue
+3/18/15,"San Francisco, CA",60,12,Wed
+3/19/15,"San Francisco, CA",62,12,Thu
+3/20/15,"San Francisco, CA",62,12,Fri
+3/21/15,"San Francisco, CA",65,12,Sat
+3/22/15,"San Francisco, CA",61,13,Sun
+3/23/15,"San Francisco, CA",60,13,Mon
+3/24/15,"San Francisco, CA",59,13,Tue
+3/25/15,"San Francisco, CA",62,13,Wed
+3/26/15,"San Francisco, CA",66,13,Thu
+3/27/15,"San Francisco, CA",58,13,Fri
+3/28/15,"San Francisco, CA",63,13,Sat
+3/29/15,"San Francisco, CA",61,14,Sun
+3/30/15,"San Francisco, CA",58,14,Mon
+3/31/15,"San Francisco, CA",59,14,Tue
+4/1/15,"San Francisco, CA",57,14,Wed
+4/2/15,"San Francisco, CA",59,14,Thu
+4/3/15,"San Francisco, CA",57,14,Fri
+4/4/15,"San Francisco, CA",57,14,Sat
+4/5/15,"San Francisco, CA",54,15,Sun
+4/6/15,"San Francisco, CA",55,15,Mon
+4/7/15,"San Francisco, CA",56,15,Tue
+4/8/15,"San Francisco, CA",57,15,Wed
+4/9/15,"San Francisco, CA",58,15,Thu
+4/10/15,"San Francisco, CA",57,15,Fri
+4/11/15,"San Francisco, CA",60,15,Sat
+4/12/15,"San Francisco, CA",63,16,Sun
+4/13/15,"San Francisco, CA",57,16,Mon
+4/14/15,"San Francisco, CA",57,16,Tue
+4/15/15,"San Francisco, CA",59,16,Wed
+4/16/15,"San Francisco, CA",66,16,Thu
+4/17/15,"San Francisco, CA",61,16,Fri
+4/18/15,"San Francisco, CA",58,16,Sat
+4/19/15,"San Francisco, CA",58,17,Sun
+4/20/15,"San Francisco, CA",61,17,Mon
+4/21/15,"San Francisco, CA",57,17,Tue
+4/22/15,"San Francisco, CA",59,17,Wed
+4/23/15,"San Francisco, CA",59,17,Thu
+4/24/15,"San Francisco, CA",58,17,Fri
+4/25/15,"San Francisco, CA",57,17,Sat
+4/26/15,"San Francisco, CA",59,18,Sun
+4/27/15,"San Francisco, CA",66,18,Mon
+4/28/15,"San Francisco, CA",58,18,Tue
+4/29/15,"San Francisco, CA",60,18,Wed
+4/30/15,"San Francisco, CA",70,18,Thu
+5/1/15,"San Francisco, CA",65,18,Fri
+5/2/15,"San Francisco, CA",60,18,Sat
+5/3/15,"San Francisco, CA",59,19,Sun
+5/4/15,"San Francisco, CA",57,19,Mon
+5/5/15,"San Francisco, CA",57,19,Tue
+5/6/15,"San Francisco, CA",59,19,Wed
+5/7/15,"San Francisco, CA",59,19,Thu
+5/8/15,"San Francisco, CA",59,19,Fri
+5/9/15,"San Francisco, CA",59,19,Sat
+5/10/15,"San Francisco, CA",57,20,Sun
+5/11/15,"San Francisco, CA",57,20,Mon
+5/12/15,"San Francisco, CA",57,20,Tue
+5/13/15,"San Francisco, CA",59,20,Wed
+5/14/15,"San Francisco, CA",60,20,Thu
+5/15/15,"San Francisco, CA",58,20,Fri
+5/16/15,"San Francisco, CA",58,20,Sat
+5/17/15,"San Francisco, CA",59,21,Sun
+5/18/15,"San Francisco, CA",58,21,Mon
+5/19/15,"San Francisco, CA",59,21,Tue
+5/20/15,"San Francisco, CA",59,21,Wed
+5/21/15,"San Francisco, CA",61,21,Thu
+5/22/15,"San Francisco, CA",60,21,Fri
+5/23/15,"San Francisco, CA",59,21,Sat
+5/24/15,"San Francisco, CA",56,22,Sun
+5/25/15,"San Francisco, CA",59,22,Mon
+5/26/15,"San Francisco, CA",60,22,Tue
+5/27/15,"San Francisco, CA",59,22,Wed
+5/28/15,"San Francisco, CA",57,22,Thu
+5/29/15,"San Francisco, CA",58,22,Fri
+5/30/15,"San Francisco, CA",58,22,Sat
+5/31/15,"San Francisco, CA",60,23,Sun
+6/1/15,"San Francisco, CA",66,23,Mon
+6/2/15,"San Francisco, CA",61,23,Tue
+6/3/15,"San Francisco, CA",60,23,Wed
+6/4/15,"San Francisco, CA",62,23,Thu
+6/5/15,"San Francisco, CA",64,23,Fri
+6/6/15,"San Francisco, CA",66,23,Sat
+6/7/15,"San Francisco, CA",63,24,Sun
+6/8/15,"San Francisco, CA",70,24,Mon
+6/9/15,"San Francisco, CA",67,24,Tue
+6/10/15,"San Francisco, CA",62,24,Wed
+6/11/15,"San Francisco, CA",63,24,Thu
+6/12/15,"San Francisco, CA",64,24,Fri
+6/13/15,"San Francisco, CA",67,24,Sat
+6/14/15,"San Francisco, CA",62,25,Sun
+6/15/15,"San Francisco, CA",57,25,Mon
+6/16/15,"San Francisco, CA",60,25,Tue
+6/17/15,"San Francisco, CA",60,25,Wed
+6/18/15,"San Francisco, CA",60,25,Thu
+6/19/15,"San Francisco, CA",60,25,Fri
+6/20/15,"San Francisco, CA",61,25,Sat
+6/21/15,"San Francisco, CA",61,26,Sun
+6/22/15,"San Francisco, CA",59,26,Mon
+6/23/15,"San Francisco, CA",61,26,Tue
+6/24/15,"San Francisco, CA",63,26,Wed
+6/25/15,"San Francisco, CA",66,26,Thu
+6/26/15,"San Francisco, CA",65,26,Fri
+6/27/15,"San Francisco, CA",67,26,Sat
+6/28/15,"San Francisco, CA",66,27,Sun
+6/29/15,"San Francisco, CA",62,27,Mon
+6/30/15,"San Francisco, CA",67,27,Tue
+7/1/15,"San Francisco, CA",65,27,Wed
+7/2/15,"San Francisco, CA",66,27,Thu
+7/3/15,"San Francisco, CA",65,27,Fri
+7/4/15,"San Francisco, CA",65,27,Sat
+7/5/15,"San Francisco, CA",68,28,Sun
+7/6/15,"San Francisco, CA",66,28,Mon
+7/7/15,"San Francisco, CA",68,28,Tue
+7/8/15,"San Francisco, CA",65,28,Wed
+7/9/15,"San Francisco, CA",64,28,Thu
+7/10/15,"San Francisco, CA",66,28,Fri
+7/11/15,"San Francisco, CA",67,28,Sat
+7/12/15,"San Francisco, CA",68,29,Sun
+7/13/15,"San Francisco, CA",67,29,Mon
+7/14/15,"San Francisco, CA",64,29,Tue
+7/15/15,"San Francisco, CA",69,29,Wed
+7/16/15,"San Francisco, CA",68,29,Thu
+7/17/15,"San Francisco, CA",66,29,Fri
+7/18/15,"San Francisco, CA",68,29,Sat
+7/19/15,"San Francisco, CA",76,30,Sun
+7/20/15,"San Francisco, CA",68,30,Mon
+7/21/15,"San Francisco, CA",65,30,Tue
+7/22/15,"San Francisco, CA",64,30,Wed
+7/23/15,"San Francisco, CA",64,30,Thu
+7/24/15,"San Francisco, CA",65,30,Fri
+7/25/15,"San Francisco, CA",64,30,Sat
+7/26/15,"San Francisco, CA",67,31,Sun
+7/27/15,"San Francisco, CA",69,31,Mon
+7/28/15,"San Francisco, CA",73,31,Tue
+7/29/15,"San Francisco, CA",69,31,Wed
+7/30/15,"San Francisco, CA",67,31,Thu
+7/31/15,"San Francisco, CA",67,31,Fri
+8/1/15,"San Francisco, CA",69,31,Sat
+8/2/15,"San Francisco, CA",67,32,Sun
+8/3/15,"San Francisco, CA",68,32,Mon
+8/4/15,"San Francisco, CA",67,32,Tue
+8/5/15,"San Francisco, CA",66,32,Wed
+8/6/15,"San Francisco, CA",65,32,Thu
+8/7/15,"San Francisco, CA",67,32,Fri
+8/8/15,"San Francisco, CA",66,32,Sat
+8/9/15,"San Francisco, CA",66,33,Sun
+8/10/15,"San Francisco, CA",67,33,Mon
+8/11/15,"San Francisco, CA",67,33,Tue
+8/12/15,"San Francisco, CA",68,33,Wed
+8/13/15,"San Francisco, CA",69,33,Thu
+8/14/15,"San Francisco, CA",68,33,Fri
+8/15/15,"San Francisco, CA",76,33,Sat
+8/16/15,"San Francisco, CA",76,34,Sun
+8/17/15,"San Francisco, CA",68,34,Mon
+8/18/15,"San Francisco, CA",68,34,Tue
+8/19/15,"San Francisco, CA",67,34,Wed
+8/20/15,"San Francisco, CA",65,34,Thu
+8/21/15,"San Francisco, CA",65,34,Fri
+8/22/15,"San Francisco, CA",66,34,Sat
+8/23/15,"San Francisco, CA",67,35,Sun
+8/24/15,"San Francisco, CA",66,35,Mon
+8/25/15,"San Francisco, CA",65,35,Tue
+8/26/15,"San Francisco, CA",67,35,Wed
+8/27/15,"San Francisco, CA",74,35,Thu
+8/28/15,"San Francisco, CA",79,35,Fri
+8/29/15,"San Francisco, CA",70,35,Sat
+8/30/15,"San Francisco, CA",69,36,Sun
+8/31/15,"San Francisco, CA",68,36,Mon
+9/1/15,"San Francisco, CA",68,36,Tue
+9/2/15,"San Francisco, CA",68,36,Wed
+9/3/15,"San Francisco, CA",64,36,Thu
+9/4/15,"San Francisco, CA",63,36,Fri
+9/5/15,"San Francisco, CA",65,36,Sat
+9/6/15,"San Francisco, CA",71,37,Sun
+9/7/15,"San Francisco, CA",74,37,Mon
+9/8/15,"San Francisco, CA",77,37,Tue
+9/9/15,"San Francisco, CA",76,37,Wed
+9/10/15,"San Francisco, CA",70,37,Thu
+9/11/15,"San Francisco, CA",67,37,Fri
+9/12/15,"San Francisco, CA",65,37,Sat
+9/13/15,"San Francisco, CA",66,38,Sun
+9/14/15,"San Francisco, CA",63,38,Mon
+9/15/15,"San Francisco, CA",63,38,Tue
+9/16/15,"San Francisco, CA",64,38,Wed
+9/17/15,"San Francisco, CA",64,38,Thu
+9/18/15,"San Francisco, CA",68,38,Fri
+9/19/15,"San Francisco, CA",70,38,Sat
+9/20/15,"San Francisco, CA",77,39,Sun
+9/21/15,"San Francisco, CA",76,39,Mon
+9/22/15,"San Francisco, CA",62,39,Tue
+9/23/15,"San Francisco, CA",65,39,Wed
+9/24/15,"San Francisco, CA",73,39,Thu
+9/25/15,"San Francisco, CA",66,39,Fri
+9/26/15,"San Francisco, CA",64,39,Sat
+9/27/15,"San Francisco, CA",64,40,Sun
+9/28/15,"San Francisco, CA",63,40,Mon
+9/29/15,"San Francisco, CA",62,40,Tue
+9/30/15,"San Francisco, CA",62,40,Wed
+10/1/15,"San Francisco, CA",67,40,Thu
+10/2/15,"San Francisco, CA",66,40,Fri
+10/3/15,"San Francisco, CA",63,40,Sat
+10/4/15,"San Francisco, CA",63,41,Sun
+10/5/15,"San Francisco, CA",66,41,Mon
+10/6/15,"San Francisco, CA",67,41,Tue
+10/7/15,"San Francisco, CA",66,41,Wed
+10/8/15,"San Francisco, CA",69,41,Thu
+10/9/15,"San Francisco, CA",68,41,Fri
+10/10/15,"San Francisco, CA",66,41,Sat
+10/11/15,"San Francisco, CA",66,42,Sun
+10/12/15,"San Francisco, CA",69,42,Mon
+10/13/15,"San Francisco, CA",75,42,Tue
+10/14/15,"San Francisco, CA",70,42,Wed
+10/15/15,"San Francisco, CA",66,42,Thu
+10/16/15,"San Francisco, CA",66,42,Fri
+10/17/15,"San Francisco, CA",65,42,Sat
+10/18/15,"San Francisco, CA",65,43,Sun
+10/19/15,"San Francisco, CA",64,43,Mon
+10/20/15,"San Francisco, CA",68,43,Tue
+10/21/15,"San Francisco, CA",65,43,Wed
+10/22/15,"San Francisco, CA",64,43,Thu
+10/23/15,"San Francisco, CA",62,43,Fri
+10/24/15,"San Francisco, CA",62,43,Sat
+10/25/15,"San Francisco, CA",64,44,Sun
+10/26/15,"San Francisco, CA",64,44,Mon
+10/27/15,"San Francisco, CA",63,44,Tue
+10/28/15,"San Francisco, CA",65,44,Wed
+10/29/15,"San Francisco, CA",64,44,Thu
+10/30/15,"San Francisco, CA",66,44,Fri
+10/31/15,"San Francisco, CA",64,44,Sat
+11/1/15,"San Francisco, CA",64,45,Sun
+11/2/15,"San Francisco, CA",59,45,Mon
+11/3/15,"San Francisco, CA",58,45,Tue
+11/4/15,"San Francisco, CA",57,45,Wed
+11/5/15,"San Francisco, CA",56,45,Thu
+11/6/15,"San Francisco, CA",58,45,Fri
+11/7/15,"San Francisco, CA",57,45,Sat
+11/8/15,"San Francisco, CA",56,46,Sun
+11/9/15,"San Francisco, CA",52,46,Mon
+11/10/15,"San Francisco, CA",53,46,Tue
+11/11/15,"San Francisco, CA",54,46,Wed
+11/12/15,"San Francisco, CA",54,46,Thu
+11/13/15,"San Francisco, CA",57,46,Fri
+11/14/15,"San Francisco, CA",55,46,Sat
+11/15/15,"San Francisco, CA",55,47,Sun
+11/16/15,"San Francisco, CA",54,47,Mon
+11/17/15,"San Francisco, CA",56,47,Tue
+11/18/15,"San Francisco, CA",56,47,Wed
+11/19/15,"San Francisco, CA",58,47,Thu
+11/20/15,"San Francisco, CA",60,47,Fri
+11/21/15,"San Francisco, CA",59,47,Sat
+11/22/15,"San Francisco, CA",58,48,Sun
+11/23/15,"San Francisco, CA",54,48,Mon
+11/24/15,"San Francisco, CA",53,48,Tue
+11/25/15,"San Francisco, CA",48,48,Wed
+11/26/15,"San Francisco, CA",48,48,Thu
+11/27/15,"San Francisco, CA",49,48,Fri
+11/28/15,"San Francisco, CA",49,48,Sat
+11/29/15,"San Francisco, CA",46,49,Sun
+11/30/15,"San Francisco, CA",45,49,Mon
+12/1/15,"San Francisco, CA",50,49,Tue
+12/2/15,"San Francisco, CA",52,49,Wed
+12/3/15,"San Francisco, CA",52,49,Thu
+12/4/15,"San Francisco, CA",52,49,Fri
+12/5/15,"San Francisco, CA",50,49,Sat
+12/6/15,"San Francisco, CA",57,50,Sun
+12/7/15,"San Francisco, CA",56,50,Mon
+12/8/15,"San Francisco, CA",56,50,Tue
+12/9/15,"San Francisco, CA",60,50,Wed
+12/10/15,"San Francisco, CA",56,50,Thu
+12/11/15,"San Francisco, CA",51,50,Fri
+12/12/15,"San Francisco, CA",52,50,Sat
+12/13/15,"San Francisco, CA",53,51,Sun
+12/14/15,"San Francisco, CA",50,51,Mon
+12/15/15,"San Francisco, CA",49,51,Tue
+12/16/15,"San Francisco, CA",47,51,Wed
+12/17/15,"San Francisco, CA",53,51,Thu
+12/18/15,"San Francisco, CA",52,51,Fri
+12/19/15,"San Francisco, CA",52,51,Sat
+12/20/15,"San Francisco, CA",48,52,Sun
+12/21/15,"San Francisco, CA",55,52,Mon
+12/22/15,"San Francisco, CA",55,52,Tue
+12/23/15,"San Francisco, CA",52,52,Wed
+12/24/15,"San Francisco, CA",49,52,Thu
+12/25/15,"San Francisco, CA",46,52,Fri
+12/26/15,"San Francisco, CA",46,52,Sat
+12/27/15,"San Francisco, CA",41,53,Sun
+12/28/15,"San Francisco, CA",45,53,Mon
+12/29/15,"San Francisco, CA",45,53,Tue
+12/30/15,"San Francisco, CA",45,53,Wed
+12/31/15,"San Francisco, CA",45,53,Thu
+1/1/15,Boston,28,1,Thu
+1/2/15,Boston,36,1,Fri
+1/3/15,Boston,30,1,Sat
+1/4/15,Boston,44,2,Sun
+1/5/15,Boston,34,2,Mon
+1/6/15,Boston,17,2,Tue
+1/7/15,Boston,15,2,Wed
+1/8/15,Boston,9,2,Thu
+1/9/15,Boston,25,2,Fri
+1/10/15,Boston,21,2,Sat
+1/11/15,Boston,24,3,Sun
+1/12/15,Boston,36,3,Mon
+1/13/15,Boston,25,3,Tue
+1/14/15,Boston,20,3,Wed
+1/15/15,Boston,28,3,Thu
+1/16/15,Boston,27,3,Fri
+1/17/15,Boston,16,3,Sat
+1/18/15,Boston,36,4,Sun
+1/19/15,Boston,39,4,Mon
+1/20/15,Boston,33,4,Tue
+1/21/15,Boston,28,4,Wed
+1/22/15,Boston,33,4,Thu
+1/23/15,Boston,31,4,Fri
+1/24/15,Boston,33,4,Sat
+1/25/15,Boston,29,5,Sun
+1/26/15,Boston,20,5,Mon
+1/27/15,Boston,17,5,Tue
+1/28/15,Boston,19,5,Wed
+1/29/15,Boston,21,5,Thu
+1/30/15,Boston,27,5,Fri
+1/31/15,Boston,16,5,Sat
+2/1/15,Boston,21,6,Sun
+2/2/15,Boston,21,6,Mon
+2/3/15,Boston,14,6,Tue
+2/4/15,Boston,26,6,Wed
+2/5/15,Boston,22,6,Thu
+2/6/15,Boston,13,6,Fri
+2/7/15,Boston,23,6,Sat
+2/8/15,Boston,21,7,Sun
+2/9/15,Boston,20,7,Mon
+2/10/15,Boston,22,7,Tue
+2/11/15,Boston,20,7,Wed
+2/12/15,Boston,23,7,Thu
+2/13/15,Boston,15,7,Fri
+2/14/15,Boston,17,7,Sat
+2/15/15,Boston,9,8,Sun
+2/16/15,Boston,8,8,Mon
+2/17/15,Boston,17,8,Tue
+2/18/15,Boston,23,8,Wed
+2/19/15,Boston,20,8,Thu
+2/20/15,Boston,13,8,Fri
+2/21/15,Boston,19,8,Sat
+2/22/15,Boston,34,9,Sun
+2/23/15,Boston,19,9,Mon
+2/24/15,Boston,11,9,Tue
+2/25/15,Boston,25,9,Wed
+2/26/15,Boston,20,9,Thu
+2/27/15,Boston,21,9,Fri
+2/28/15,Boston,22,9,Sat
+3/1/15,Boston,21,10,Sun
+3/2/15,Boston,32,10,Mon
+3/3/15,Boston,27,10,Tue
+3/4/15,Boston,38,10,Wed
+3/5/15,Boston,29,10,Thu
+3/6/15,Boston,17,10,Fri
+3/7/15,Boston,28,10,Sat
+3/8/15,Boston,33,11,Sun
+3/9/15,Boston,37,11,Mon
+3/10/15,Boston,40,11,Tue
+3/11/15,Boston,47,11,Wed
+3/12/15,Boston,34,11,Thu
+3/13/15,Boston,32,11,Fri
+3/14/15,Boston,35,11,Sat
+3/15/15,Boston,34,12,Sun
+3/16/15,Boston,36,12,Mon
+3/17/15,Boston,40,12,Tue
+3/18/15,Boston,26,12,Wed
+3/19/15,Boston,27,12,Thu
+3/20/15,Boston,28,12,Fri
+3/21/15,Boston,35,12,Sat
+3/22/15,Boston,30,13,Sun
+3/23/15,Boston,26,13,Mon
+3/24/15,Boston,28,13,Tue
+3/25/15,Boston,39,13,Wed
+3/26/15,Boston,47,13,Thu
+3/27/15,Boston,41,13,Fri
+3/28/15,Boston,35,13,Sat
+3/29/15,Boston,34,14,Sun
+3/30/15,Boston,38,14,Mon
+3/31/15,Boston,44,14,Tue
+4/1/15,Boston,39,14,Wed
+4/2/15,Boston,46,14,Thu
+4/3/15,Boston,52,14,Fri
+4/4/15,Boston,44,14,Sat
+4/5/15,Boston,41,15,Sun
+4/6/15,Boston,39,15,Mon
+4/7/15,Boston,39,15,Tue
+4/8/15,Boston,38,15,Wed
+4/9/15,Boston,35,15,Thu
+4/10/15,Boston,46,15,Fri
+4/11/15,Boston,50,15,Sat
+4/12/15,Boston,54,16,Sun
+4/13/15,Boston,55,16,Mon
+4/14/15,Boston,59,16,Tue
+4/15/15,Boston,59,16,Wed
+4/16/15,Boston,51,16,Thu
+4/17/15,Boston,56,16,Fri
+4/18/15,Boston,52,16,Sat
+4/19/15,Boston,46,17,Sun
+4/20/15,Boston,46,17,Mon
+4/21/15,Boston,56,17,Tue
+4/22/15,Boston,55,17,Wed
+4/23/15,Boston,45,17,Thu
+4/24/15,Boston,44,17,Fri
+4/25/15,Boston,46,17,Sat
+4/26/15,Boston,50,18,Sun
+4/27/15,Boston,51,18,Mon
+4/28/15,Boston,53,18,Tue
+4/29/15,Boston,51,18,Wed
+4/30/15,Boston,50,18,Thu
+5/1/15,Boston,44,18,Fri
+5/2/15,Boston,45,18,Sat
+5/3/15,Boston,56,19,Sun
+5/4/15,Boston,67,19,Mon
+5/5/15,Boston,62,19,Tue
+5/6/15,Boston,63,19,Wed
+5/7/15,Boston,66,19,Thu
+5/8/15,Boston,59,19,Fri
+5/9/15,Boston,59,19,Sat
+5/10/15,Boston,74,20,Sun
+5/11/15,Boston,65,20,Mon
+5/12/15,Boston,68,20,Tue
+5/13/15,Boston,61,20,Wed
+5/14/15,Boston,59,20,Thu
+5/15/15,Boston,58,20,Fri
+5/16/15,Boston,63,20,Sat
+5/17/15,Boston,60,21,Sun
+5/18/15,Boston,54,21,Mon
+5/19/15,Boston,59,21,Tue
+5/20/15,Boston,59,21,Wed
+5/21/15,Boston,56,21,Thu
+5/22/15,Boston,64,21,Fri
+5/23/15,Boston,55,21,Sat
+5/24/15,Boston,67,22,Sun
+5/25/15,Boston,70,22,Mon
+5/26/15,Boston,76,22,Tue
+5/27/15,Boston,75,22,Wed
+5/28/15,Boston,75,22,Thu
+5/29/15,Boston,64,22,Fri
+5/30/15,Boston,73,22,Sat
+5/31/15,Boston,63,23,Sun
+6/1/15,Boston,48,23,Mon
+6/2/15,Boston,48,23,Tue
+6/3/15,Boston,52,23,Wed
+6/4/15,Boston,54,23,Thu
+6/5/15,Boston,55,23,Fri
+6/6/15,Boston,60,23,Sat
+6/7/15,Boston,60,24,Sun
+6/8/15,Boston,65,24,Mon
+6/9/15,Boston,71,24,Tue
+6/10/15,Boston,72,24,Wed
+6/11/15,Boston,76,24,Thu
+6/12/15,Boston,72,24,Fri
+6/13/15,Boston,75,24,Sat
+6/14/15,Boston,68,25,Sun
+6/15/15,Boston,59,25,Mon
+6/16/15,Boston,64,25,Tue
+6/17/15,Boston,64,25,Wed
+6/18/15,Boston,67,25,Thu
+6/19/15,Boston,75,25,Fri
+6/20/15,Boston,67,25,Sat
+6/21/15,Boston,68,26,Sun
+6/22/15,Boston,69,26,Mon
+6/23/15,Boston,74,26,Tue
+6/24/15,Boston,76,26,Wed
+6/25/15,Boston,73,26,Thu
+6/26/15,Boston,66,26,Fri
+6/27/15,Boston,63,26,Sat
+6/28/15,Boston,56,27,Sun
+6/29/15,Boston,64,27,Mon
+6/30/15,Boston,68,27,Tue
+7/1/15,Boston,72,27,Wed
+7/2/15,Boston,72,27,Thu
+7/3/15,Boston,70,27,Fri
+7/4/15,Boston,67,27,Sat
+7/5/15,Boston,72,28,Sun
+7/6/15,Boston,74,28,Mon
+7/7/15,Boston,75,28,Tue
+7/8/15,Boston,79,28,Wed
+7/9/15,Boston,66,28,Thu
+7/10/15,Boston,69,28,Fri
+7/11/15,Boston,76,28,Sat
+7/12/15,Boston,81,29,Sun
+7/13/15,Boston,72,29,Mon
+7/14/15,Boston,74,29,Tue
+7/15/15,Boston,75,29,Wed
+7/16/15,Boston,64,29,Thu
+7/17/15,Boston,68,29,Fri
+7/18/15,Boston,71,29,Sat
+7/19/15,Boston,81,30,Sun
+7/20/15,Boston,81,30,Mon
+7/21/15,Boston,76,30,Tue
+7/22/15,Boston,77,30,Wed
+7/23/15,Boston,75,30,Thu
+7/24/15,Boston,74,30,Fri
+7/25/15,Boston,66,30,Sat
+7/26/15,Boston,71,31,Sun
+7/27/15,Boston,77,31,Mon
+7/28/15,Boston,78,31,Tue
+7/29/15,Boston,82,31,Wed
+7/30/15,Boston,83,31,Thu
+7/31/15,Boston,81,31,Fri
+8/1/15,Boston,79,31,Sat
+8/2/15,Boston,78,32,Sun
+8/3/15,Boston,79,32,Mon
+8/4/15,Boston,78,32,Tue
+8/5/15,Boston,75,32,Wed
+8/6/15,Boston,74,32,Thu
+8/7/15,Boston,69,32,Fri
+8/8/15,Boston,69,32,Sat
+8/9/15,Boston,68,33,Sun
+8/10/15,Boston,73,33,Mon
+8/11/15,Boston,68,33,Tue
+8/12/15,Boston,77,33,Wed
+8/13/15,Boston,74,33,Thu
+8/14/15,Boston,75,33,Fri
+8/15/15,Boston,80,33,Sat
+8/16/15,Boston,79,34,Sun
+8/17/15,Boston,81,34,Mon
+8/18/15,Boston,79,34,Tue
+8/19/15,Boston,80,34,Wed
+8/20/15,Boston,73,34,Thu
+8/21/15,Boston,75,34,Fri
+8/22/15,Boston,70,34,Sat
+8/23/15,Boston,69,35,Sun
+8/24/15,Boston,72,35,Mon
+8/25/15,Boston,74,35,Tue
+8/26/15,Boston,77,35,Wed
+8/27/15,Boston,74,35,Thu
+8/28/15,Boston,70,35,Fri
+8/29/15,Boston,73,35,Sat
+8/30/15,Boston,79,36,Sun
+8/31/15,Boston,81,36,Mon
+9/1/15,Boston,74,36,Tue
+9/2/15,Boston,79,36,Wed
+9/3/15,Boston,76,36,Thu
+9/4/15,Boston,67,36,Fri
+9/5/15,Boston,66,36,Sat
+9/6/15,Boston,72,37,Sun
+9/7/15,Boston,80,37,Mon
+9/8/15,Boston,84,37,Tue
+9/9/15,Boston,83,37,Wed
+9/10/15,Boston,71,37,Thu
+9/11/15,Boston,68,37,Fri
+9/12/15,Boston,66,37,Sat
+9/13/15,Boston,65,38,Sun
+9/14/15,Boston,65,38,Mon
+9/15/15,Boston,73,38,Tue
+9/16/15,Boston,73,38,Wed
+9/17/15,Boston,77,38,Thu
+9/18/15,Boston,75,38,Fri
+9/19/15,Boston,71,38,Sat
+9/20/15,Boston,66,39,Sun
+9/21/15,Boston,60,39,Mon
+9/22/15,Boston,62,39,Tue
+9/23/15,Boston,61,39,Wed
+9/24/15,Boston,66,39,Thu
+9/25/15,Boston,61,39,Fri
+9/26/15,Boston,57,39,Sat
+9/27/15,Boston,56,40,Sun
+9/28/15,Boston,67,40,Mon
+9/29/15,Boston,75,40,Tue
+9/30/15,Boston,68,40,Wed
+10/1/15,Boston,57,40,Thu
+10/2/15,Boston,52,40,Fri
+10/3/15,Boston,52,40,Sat
+10/4/15,Boston,54,41,Sun
+10/5/15,Boston,55,41,Mon
+10/6/15,Boston,56,41,Tue
+10/7/15,Boston,62,41,Wed
+10/8/15,Boston,57,41,Thu
+10/9/15,Boston,62,41,Fri
+10/10/15,Boston,55,41,Sat
+10/11/15,Boston,58,42,Sun
+10/12/15,Boston,64,42,Mon
+10/13/15,Boston,64,42,Tue
+10/14/15,Boston,60,42,Wed
+10/15/15,Boston,55,42,Thu
+10/16/15,Boston,56,42,Fri
+10/17/15,Boston,48,42,Sat
+10/18/15,Boston,40,43,Sun
+10/19/15,Boston,40,43,Mon
+10/20/15,Boston,56,43,Tue
+10/21/15,Boston,57,43,Wed
+10/22/15,Boston,63,43,Thu
+10/23/15,Boston,50,43,Fri
+10/24/15,Boston,44,43,Sat
+10/25/15,Boston,56,44,Sun
+10/26/15,Boston,48,44,Mon
+10/27/15,Boston,46,44,Tue
+10/28/15,Boston,54,44,Wed
+10/29/15,Boston,66,44,Thu
+10/30/15,Boston,52,44,Fri
+10/31/15,Boston,45,44,Sat
+11/1/15,Boston,55,45,Sun
+11/2/15,Boston,58,45,Mon
+11/3/15,Boston,60,45,Tue
+11/4/15,Boston,55,45,Wed
+11/5/15,Boston,63,45,Thu
+11/6/15,Boston,68,45,Fri
+11/7/15,Boston,60,45,Sat
+11/8/15,Boston,50,46,Sun
+11/9/15,Boston,51,46,Mon
+11/10/15,Boston,49,46,Tue
+11/11/15,Boston,48,46,Wed
+11/12/15,Boston,52,46,Thu
+11/13/15,Boston,53,46,Fri
+11/14/15,Boston,42,46,Sat
+11/15/15,Boston,46,47,Sun
+11/16/15,Boston,50,47,Mon
+11/17/15,Boston,39,47,Tue
+11/18/15,Boston,40,47,Wed
+11/19/15,Boston,49,47,Thu
+11/20/15,Boston,53,47,Fri
+11/21/15,Boston,43,47,Sat
+11/22/15,Boston,43,48,Sun
+11/23/15,Boston,36,48,Mon
+11/24/15,Boston,37,48,Tue
+11/25/15,Boston,37,48,Wed
+11/26/15,Boston,49,48,Thu
+11/27/15,Boston,56,48,Fri
+11/28/15,Boston,51,48,Sat
+11/29/15,Boston,38,49,Sun
+11/30/15,Boston,33,49,Mon
+12/1/15,Boston,39,49,Tue
+12/2/15,Boston,45,49,Wed
+12/3/15,Boston,47,49,Thu
+12/4/15,Boston,43,49,Fri
+12/5/15,Boston,46,49,Sat
+12/6/15,Boston,48,50,Sun
+12/7/15,Boston,47,50,Mon
+12/8/15,Boston,41,50,Tue
+12/9/15,Boston,42,50,Wed
+12/10/15,Boston,51,50,Thu
+12/11/15,Boston,51,50,Fri
+12/12/15,Boston,55,50,Sat
+12/13/15,Boston,50,51,Sun
+12/14/15,Boston,52,51,Mon
+12/15/15,Boston,55,51,Tue
+12/16/15,Boston,43,51,Wed
+12/17/15,Boston,46,51,Thu
+12/18/15,Boston,46,51,Fri
+12/19/15,Boston,37,51,Sat
+12/20/15,Boston,36,52,Sun
+12/21/15,Boston,43,52,Mon
+12/22/15,Boston,54,52,Tue
+12/23/15,Boston,51,52,Wed
+12/24/15,Boston,59,52,Thu
+12/25/15,Boston,56,52,Fri
+12/26/15,Boston,48,52,Sat
+12/27/15,Boston,44,53,Sun
+12/28/15,Boston,34,53,Mon
+12/29/15,Boston,32,53,Tue
+12/30/15,Boston,31,53,Wed
+12/31/15,Boston,40,53,Thu
