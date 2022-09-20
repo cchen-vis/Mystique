@@ -435,9 +435,10 @@ function enableDragDrop(texts) {
         })
         .on("mouseout", function() {
             thisText = d3.select(this);
+            let thisT = texts.filter(t => t['id']==thisText.attr("id"))[0];
             thisText
-                .style("fill", texts.filter(t => t['id']==thisText.attr("id"))[0]['fill'])
-                .style("font-weight", texts.filter(t => t['id']==thisText.attr("id"))[0]['font-weight']);
+                .style("fill", thisT ? thisT['fill'] : texts[0]['fill'])
+                .style("font-weight", thisT ? thisT['font-weight'] : texts[0]['font-weight']);
         });
 }
 

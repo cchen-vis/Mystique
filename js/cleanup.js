@@ -48,6 +48,7 @@ function flattenSVG(svgString) {
     }
 
     let texts_processed = [];
+    console.log(groups['text'])
     if ('text' in groups) {
         let texts = groups['text']
         if ('tspan' in groups)
@@ -126,7 +127,8 @@ function tree_dict_not_nested(node, level, parent, container, acc_transforms, no
             end = c.indexOf("<", start)
         }
         if (thing['content'] == "") {
-            nodeMap[tag] = nodeMap[tag] - 1;
+            // nodeMap[tag] = nodeMap[tag] - 1;
+            // tbd: verify which examples are affected
             return container
         }
     }
