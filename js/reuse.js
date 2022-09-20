@@ -80,7 +80,6 @@
         else isGlyph = false;
     }
     for (let l of layers) {
-        console.log(l.item)
         if (l.item.type == "collection" && l.item.layout && l.item.layout.type == "treemap" && l.item.children[0] && !l.item.bottomTreeInd) {
             let peers = atlasSceneGraph.getPeers(l.item);
             let widths = peers.map(d => parseInt(d.bounds.width)).filter(onlyUnique), heights = peers.map(d => parseInt(d.bounds.height)).filter(onlyUnique);
@@ -788,6 +787,9 @@ function createAxis(info, xy) {
                 args.item = p.firstChild;
                 atlasSceneGraph.axis(xy, info.field, args);
             }
+        } else {
+            axisArgs.item = item;
+            atlasSceneGraph.axis(xy, info.field, axisArgs);
         }
     }
 }
@@ -862,7 +864,11 @@ function unifyRectSize() {
             let peers = atlasSceneGraph.getPeers(item);
             let w = wd.pop(), h = ht.pop();
             let yRef = item.parent.type === "glyph" ? "bottom" : "top";
-            peers.forEach(d => {
+            peers.forEach((d, i) => {
+                if (d.vertices.length === 3 && d._bounds.height === 0) {
+                    d.vertices.push(d.vertices[0]);
+                    peers[i] = d;
+                }
                 d.resize(w, h, "left", yRef);
             })
             atlasSceneGraph._relayoutAncestors(item, peers);

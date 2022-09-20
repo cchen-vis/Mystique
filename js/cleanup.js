@@ -61,7 +61,6 @@ function flattenSVG(svgString) {
 
     // tbd: handle cases where lines representing rects (rangeChart_datylon_new waterfall_datylon_new)
     // console.log(lines_processed.map(line => line["stroke-width"]))
-    
     return {'rects': rects_processed.concat(circles_processed), "rectWith0WH" : rectWith0WH, "texts": texts_processed, "lines": lines_processed, "allNodes": flatArray};
 }
 
@@ -457,10 +456,11 @@ function pathParser(container, node) {
                     } else if (char=='H') {
                         pointSeq.push([parseFloat(shifts), previousY]);
                     } else if (char=='v') {
-                        if (parseFloat(shifts) !== 0)
+                        // if (parseFloat(shifts) !== 0)
+                        // tbd: here we cannot use this if otherwise 0hw-rects will be filtered out; 
                             pointSeq.push([previousX, previousY + parseFloat(shifts)]);
                     } else if (char=='h') {
-                        if (parseFloat(shifts) !== 0)
+                        // if (parseFloat(shifts) !== 0)
                             pointSeq.push([previousX + parseFloat(shifts), previousY]);
                     }
                     // if (pointSeq.length>=2 && pointSeq[pointSeq.length-1][0] == pointSeq[pointSeq.length-2][0] && pointSeq[pointSeq.length-1][1] == pointSeq[pointSeq.length-2][1])
@@ -472,6 +472,7 @@ function pathParser(container, node) {
 
     //then check whether the point seq forms a rect or a line
     //haven't deal with all possible cases
+
     if (pointSeq.length==5 && pointSeq[0][0]==pointSeq[pointSeq.length-1][0] && pointSeq[0][1]==pointSeq[pointSeq.length-1][1]) {
         //just for now
         let thisWidth = Math.max(...pointSeq.map(d => d[0])) - Math.min(...pointSeq.map(d => d[0]));

@@ -1,0 +1,110 @@
+{
+  "WaterfallChart": {
+    "name": "Waterfall Chart",
+    "svgFileName": "waterfall_01",
+    "about": "tbd",
+    "url": "http://dimplejs.org/advanced_examples_viewer.html?id=advanced_waterfall"
+  },
+  "MarimekkoChart": {
+    "name": "Marimekko Chart",
+    "svgFileName": "marimekko_plotdb",
+    "about": "tbd",
+    "url": "https://plotdb.com/chart/1118/"
+  },
+  "GanttChart": {
+    "name": "Gantt Chart",
+    "svgFileName": "gantt_01",
+    "about": "tbd",
+    "url": "https://www.amcharts.com/demos/gantt-chart/"
+  },
+  "Heatmap": {
+    "name": "Heatmap",
+    "svgFileName": "D3-7",
+    "about": "tbd",
+    "url": "http://bl.ocks.org/nbremer/62cf60e116ae821c06602793d265eaf6"
+  },
+  "TowerChart": {
+    "name": "Tower Chart",
+    "svgFileName": "towerchart",
+    "about": "tbd",
+    "url": "https://atlas-vis.github.io/gallery.html#TowerChart"
+  },
+  "BulletChart": {
+    "name": "Bullet Chart",
+    "svgFileName": "others-3",
+    "about": "tbd",
+    "url": "https://charticulator.com/gallery/mean_median_income.html"
+  },
+  "DivergingBarChart": {
+    "name": "Diverging Bar Chart",
+    "svgFileName": "diverge_vegalite",
+    "about": "tbd",
+    "url": "https://vega.github.io/vega-lite/examples/bar_diverging_stack_transform.html"
+  },
+  "SmallMultipleBarChart": {
+    "name": "Small Multiple Bar Chart",
+    "svgFileName": "sm_bar",
+    "about": "tbd",
+    "url": "https://atlas-vis.github.io/gallery.html#MultipleBarCharts"
+  },
+  "GroupedStackedBarChart": {
+    "name": "Grouped Stacked Bar Chart",
+    "svgFileName": "highcharts_stacked_bar",
+    "about": "tbd",
+    "url": "https://www.urban.org/features/11-charts-about-social-security-disability-insurance-program"
+  },
+  "GlyphChart": {
+    "name": "Glyph Chart",
+    "svgFileName": "D3-3",
+    "about": "tbd",
+    "url": "http://bl.ocks.org/michalskop/8016812"
+  },
+  "TreemapBarchart": {
+    "name": "Treemap Barchart",
+    "svgFileName": "treemap-barchart",
+    "about": "tbd",
+    "url": "https://bl.ocks.org/cmgiven/018fd027d443b177e18fffb9afcdb5bd"
+  },
+  "CalenderChart": {
+    "name": "Calender Chart",
+    "svgFileName": "D3-5",
+    "about": "tbd",
+    "url": "http://bl.ocks.org/eesur/5fbda7f410d31da35e42"
+  },
+  "RangeChart": {
+    "name": "Range Chart",
+    "svgFileName": "others-2",
+    "about": "tbd",
+    "url": "https://atlas-vis.github.io/gallery.html#RangeChart"
+  },
+  "StackedBarChart": {
+    "name": "Stacked Bar Chart",
+    "svgFileName": "D3-12",
+    "about": "tbd",
+    "url": "http://bl.ocks.org/peterbsmyth/raw/005ed081c4b654ad04ce/?raw=true"
+  },
+  "WaffleChart": {
+    "name": "Waffle Chart",
+    "svgFileName": "D3-18",
+    "about": "tbd",
+    "url": "https://bl.ocks.org/timelyportfolio/raw/a2c97fbf90aebe591d94/?raw=true"
+  },
+  "WaffleBarChart": {
+    "name": "Waffle Bar Chart",
+    "svgFileName": "multiple-waffle",
+    "about": "tbd",
+    "url": "http://google.com"
+  },
+  "barChart": {
+    "name": "Bar Chart",
+    "svgFileName": "bar_h_02",
+    "about": "tbd",
+    "url": "https://apexcharts.com/javascript-chart-demos/bar-charts/basic/"
+  },
+  "PyramidChart": {
+    "name": "Pyramid Chart",
+    "svgFileName": "pyramid_03",
+    "about": "tbd",
+    "url": "https://apexcharts.com/javascript-chart-demos/bar-charts/bar-with-negative-values/"
+  }
+}
