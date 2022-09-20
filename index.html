@@ -99,9 +99,9 @@
             let thisDemo = d3.select("#gallery")
                     .append("div")
                     .attr("class", "galleryDiv")   
-            thisDemo.append("div").attr("class", "columnName").html("<b>Example</b> <br>(click on the image to open the webpage containing the original chart)");
-            thisDemo.append("div").attr("class", "columnName").html("<b>New chart after reusing</b> <br>(click on the image to open the example and try reusing it in Mystique)");
-            thisDemo.append("div").attr("class", "columnName").html("<b>Explanation of the new chart</b>");
+            thisDemo.append("div").attr("class", "columnName").html("<b>Example</b> <br>(click to open the source page)");
+            thisDemo.append("div").attr("class", "columnName").html("<b>New chart after reusing</b> <br>(click to try Mystique with this example)");
+            thisDemo.append("div").attr("class", "columnName").html("<b>Explanation of the new chart</b> <br> (Instructions on object-data mappings)");
             metaData = JSON.parse(text);
             for (let k of Object.keys(metaData)) {
                 let thisDemo = d3.select("#gallery")
