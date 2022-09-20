@@ -23,18 +23,33 @@
         overflow-x: hidden;
         overflow-y: auto;
       }
+      header img {
+        float: left;
+        width: 40px;
+        height: 60px;
+        background: white;
+        margin: 0px 10px 0px 0px;
+      }
       header h1 {
+        font-size: 50px;
+        font-weight: 600;
+        color: #4f0599;
+        text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+            0px 0px 20px #b393d3;
+      }
+      /* header h1 {
         font-size: 50px;
         font-weight: 600;
         background-image: linear-gradient(to left, #553c9a, #b393d3);
         color: transparent;
         background-clip: text;
         -webkit-background-clip: text;
-      }
+      } */
       header h2 {
         font-size: 25px;
         font-weight: 500;
         color: #553c9a;
+        margin: 0px 0px 25px 0px;
       }
       .galleryDiv{
         width: 80%;
@@ -45,7 +60,7 @@
       .columnName {
         max-width: 30%;
         min-width: 30%;
-        height: 30px;
+        height: 35px;
         vertical-align: text-bottom;
         text-align: center;
         border: 2px solid white;
@@ -70,6 +85,7 @@
   </head>
   <body>
     <header>
+        <img src="img/mystique.png" alt="logo" />
         <h1>Mystique</h1>
         <h2>Toward Interactive Reuse of Existing SVG Examples for Easy Chart Authoring</h2>
     </header>
@@ -81,16 +97,7 @@
     </div>
 
     <script>
-      window.onhashchange = refresh;
       let metaData;
-
-      function refresh() {
-        let demo = window.location.hash.replace("#", "");
-        if (demo && demo != "") {
-          document.getElementById("source").href = metaData[demo];
-          loadDemo(demo);
-        }
-      }
 
       function loadDemo(demo) {
         console.log(demo);
@@ -142,7 +149,6 @@
                     .attr("class", "galleryItem")
                     .text(metaData[k].about);
             }
-            // refresh();
           });
       });
     </script>
