@@ -2,109 +2,109 @@
   "WaterfallChart": {
     "name": "Waterfall Chart",
     "svgFileName": "waterfall_01",
-    "about": "tbd",
+    "about": "Each rectangle represents a “period”, the top of each rect represents “current”, the bottom of each rectangle represents “previous”, the fill color represents “category”.",
     "url": "http://dimplejs.org/advanced_examples_viewer.html?id=advanced_waterfall"
   },
   "MarimekkoChart": {
     "name": "Marimekko Chart",
     "svgFileName": "marimekko_plotdb",
-    "about": "tbd",
+    "about": "Each row represents a “class”, each rectangle represents “demographic”. The rectangle width represents “percent class”, the height represents “percentage total”, the fill color represents “demographic”. ",
     "url": "https://plotdb.com/chart/1118/"
   },
   "GanttChart": {
     "name": "Gantt Chart",
     "svgFileName": "gantt_01",
-    "about": "tbd",
+    "about": "Each rectangle represents a “Task”, the left of each rectangle represents “Start Date”, the right represents “End date”, the y position represents “Task”, the fill color represents “Task”.",
     "url": "https://www.amcharts.com/demos/gantt-chart/"
   },
   "Heatmap": {
     "name": "Heatmap",
     "svgFileName": "D3-7",
-    "about": "tbd",
+    "about": "Each rectangle represents a “rowID”, the x position of each rect represents “Draft_Pick”, the y position of each rectangle represents “Draft_Year”, the fill color represents “VORP”.",
     "url": "http://bl.ocks.org/nbremer/62cf60e116ae821c06602793d265eaf6"
   },
   "TowerChart": {
     "name": "Tower Chart",
     "svgFileName": "towerchart",
-    "about": "tbd",
+    "about": "Each rectangle represents a “State” for a “Candidate”, the width of each rect represents “Candidate Margin”, the height of each rectangle represents “Candidate EV”, the fill color represents “State”.",
     "url": "https://atlas-vis.github.io/gallery.html#TowerChart"
   },
   "BulletChart": {
     "name": "Bullet Chart",
     "svgFileName": "others-3",
-    "about": "tbd",
+    "about": "Each row represents a “Region”, the width of a blue rectangle represents “Target”, the width of a red rectangle represents “Measure”",
     "url": "https://charticulator.com/gallery/mean_median_income.html"
   },
   "DivergingBarChart": {
     "name": "Diverging Bar Chart",
     "svgFileName": "diverge_vegalite",
-    "about": "tbd",
+    "about": "Each row represents an “Age Group”, each rectangle represents “Response”. The width of each rectangle represents “Percentage”, the fill represents “Response”. The left segments of rectangles representing “Strongly disagree” are aligned.",
     "url": "https://vega.github.io/vega-lite/examples/bar_diverging_stack_transform.html"
   },
   "SmallMultipleBarChart": {
     "name": "Small Multiple Bar Chart",
     "svgFileName": "sm_bar",
-    "about": "tbd",
+    "about": "Each group represents a “State”, each rectangle represents a “year”. The height of each rectangle represents “PVI Score”, the fill represents “Inclination”. The x and y position of each group enodes “MapX” and “MapY”.",
     "url": "https://atlas-vis.github.io/gallery.html#MultipleBarCharts"
   },
   "GroupedStackedBarChart": {
     "name": "Grouped Stacked Bar Chart",
     "svgFileName": "highcharts_stacked_bar",
-    "about": "tbd",
+    "about": "Each column represents a “Subcategory” and are grouped by “Category”, each rectangle represents a “Region”. The height of a rectangle represents “Sales”, and the fill of a rectangle represents “Region”. ",
     "url": "https://www.urban.org/features/11-charts-about-social-security-disability-insurance-program"
   },
   "GlyphChart": {
     "name": "Glyph Chart",
     "svgFileName": "D3-3",
-    "about": "tbd",
+    "about": "Each column group represents a “Food Type”. The height of the darker rectangle in each group represents the value from “1960”, and the height of the lighter rectangle in each group represents the value from “2008-2012”.",
     "url": "http://bl.ocks.org/michalskop/8016812"
   },
   "TreemapBarchart": {
     "name": "Treemap Barchart",
     "svgFileName": "treemap-barchart",
-    "about": "tbd",
+    "about": "Each column represents a “Subcategory” and are grouped by “Category”, each color group represents a “Region” and each rectangle represents an “Order ID”. The area of a rectangle represents “Sales”, and the fill of a rectangle represents “Region”.",
     "url": "https://bl.ocks.org/cmgiven/018fd027d443b177e18fffb9afcdb5bd"
   },
   "CalenderChart": {
     "name": "Calender Chart",
     "svgFileName": "D3-5",
-    "about": "tbd",
+    "about": "Each group represents a “location”, and each rectangle represents a “date”. The x position of a rectangle represents “Week”, the y position of a rectangle represents “DayOfWeek”, and the fill of a rectangle represents “meanTemp”.",
     "url": "http://bl.ocks.org/eesur/5fbda7f410d31da35e42"
   },
   "RangeChart": {
     "name": "Range Chart",
     "svgFileName": "others-2",
-    "about": "tbd",
+    "about": "Each thin rectangle represents a “date”. The x position of each rectangle represents “date”, the bottom represents “minTemp”, the top represents “maxTemp”, and the fill represents “meanTemp”.",
     "url": "https://atlas-vis.github.io/gallery.html#RangeChart"
   },
   "StackedBarChart": {
     "name": "Stacked Bar Chart",
     "svgFileName": "D3-12",
-    "about": "tbd",
+    "about": "Each column represents a “date”, each rectangle represents a “industry”. The height of a rectangle represents “unemployments”, and the fill of a rectangle represents “industry”.",
     "url": "http://bl.ocks.org/peterbsmyth/raw/005ed081c4b654ad04ce/?raw=true"
   },
   "WaffleChart": {
     "name": "Waffle Chart",
     "svgFileName": "D3-18",
-    "about": "tbd",
+    "about": "Each rectangle represents an “ID”, and the fill represents “Age Bin”.",
     "url": "https://bl.ocks.org/timelyportfolio/raw/a2c97fbf90aebe591d94/?raw=true"
   },
   "WaffleBarChart": {
     "name": "Waffle Bar Chart",
     "svgFileName": "multiple-waffle",
-    "about": "tbd",
+    "about": "Each group represents a “Subcategory”, each rectangle represents an “Order ID”, and the fill represents “Region”.",
     "url": "http://google.com"
   },
   "barChart": {
     "name": "Bar Chart",
     "svgFileName": "bar_h_02",
-    "about": "tbd",
+    "about": "Each rectangle represents a “Month”, and the width represents “Death”.",
     "url": "https://apexcharts.com/javascript-chart-demos/bar-charts/basic/"
   },
   "PyramidChart": {
     "name": "Pyramid Chart",
     "svgFileName": "pyramid_03",
-    "about": "tbd",
+    "about": "Each row represents a “Date”, and each rectangle represents a “Gender”. The width of each rectangtle represents “Unemployment”, and the fill represents “Gender”.",
     "url": "https://apexcharts.com/javascript-chart-demos/bar-charts/bar-with-negative-values/"
   }
 }
