@@ -474,6 +474,7 @@
     <div id="draggedTblCell" style="visibility: hidden; padding: 5px; position: absolute;background-color: #D7EBCC; font-size: 20px;pointer-events: none;"></div>
     <script>
         window.onhashchange = refresh;
+        let uploaded = false;
         let metaData;
         var demoName, mainContent;
         var areaSelection;
@@ -505,6 +506,7 @@
         }
 
         function refresh() {
+            if (localStorage["svg"].length > 0) { loadDemo("artboard");}
             let demo = window.location.hash.replace("#", "");
             if (demo && demo != "") {
                 document.getElementById('source').href = metaData[demo];
@@ -518,6 +520,7 @@
                 return resp.text();
             })
             .then((text) => {
+                if(localStorage["svg"].length > 0) text = localStorage["svg"];
                 undoStack = [];
                 redoStack = [];
                 atlasSG_histroy = [];
@@ -529,7 +532,7 @@
                 yAxis = undefined;
                 xGridlines = undefined;
                 yGridlines = undefined;
-                demoName = demo;
+                demoName = demo; // demo/demoname are not used in later functions
                 let jsonArr = flattenSVG(text);
                 d3.select("#preprocessUI").style("visibility", "visible");
                 d3.select("#reuseUI").style("visibility", "hidden");

@@ -17,7 +17,7 @@
         font-family: Arial;
       }
       body {
-        margin:0 20% 0 20%;
+        margin:0 15% 0 15%;
         padding: 0px;
         background: white;
         overflow-x: hidden;
@@ -52,7 +52,7 @@
         margin: 0px 0px 25px 0px;
       }
       .galleryDiv{
-        width: 80%;
+        width: 100%;
         border: 2px solid white;
         display: inline-block;
         margin: 0px 10px 0px 10px;
@@ -70,7 +70,8 @@
       .galleryItem {
         max-width: 30%;
         min-width: 30%;
-        height: 140px;
+        height: 0;
+        padding-bottom: 20%;
         vertical-align: text-bottom;
         text-align: center;
         border: 2px solid #eee;
@@ -81,6 +82,58 @@
         box-shadow: 0px 0px 5px #888;
         cursor: pointer;
       }
+      #uploadData {
+        margin: 40px 10px 5px 10px;
+      }
+      #uploadForm {
+        margin: 20px 10px 50px 10px;
+      }
+      div.upload {
+    background-color:#fff;
+    border: 1px solid #ddd;
+    border-radius:5px;
+    display:inline-block;
+    height: 30px;
+    padding:3px 40px 3px 3px;
+    position:relative;
+    width: auto;
+}
+
+div.upload:hover {
+    opacity:0.95;
+}
+
+div.upload input[type="file"] {
+    display: input-block;
+    width: 100%;
+    height: 30px;
+    opacity: 0;
+    cursor:pointer;
+    position:absolute;
+    left:0;
+}
+.uploadButton {
+    background-color: #425F9C;
+    border: none;
+    border-radius: 3px;
+    color: #FFF;
+    cursor:pointer;
+    display: inline-block;
+    height: 30px;
+    margin-right:15px;
+    width: auto;
+    padding:0 20px;
+    box-sizing: content-box;
+}
+
+.fileName {
+    font-family: Arial;
+    font-size:14px;
+}
+
+.upload + .uploadButton {
+    height:38px;
+}
     </style>
   </head>
   <body>
@@ -93,14 +146,53 @@
 
     </div>
     <div id="uploadData">
+        <h2> Experimental Feature: Upload Your Own SVG</h2>
+        <h3> You can upload an SVG file as the input example and reuse it on your own dataset with Mystique. The SVG file needs to satisfy the following requirements:
+            <ol>
+                <li>
+                    It is composed of rectangle marks only;
+                </li>
+                <li>
+                    It needs to contain complete style information (e.g., fill and stroke). If such information is sometimes contained in the CSS file associated with the webpage in which the SVG is embedded in, you need to add this information to the SVG file. 
+                </li>
+            </ol>
+        </h3>
+        <!-- solution from http://jsfiddle.net/umhva747/ -->
+        <form action="demopage.html" id="uploadForm"> 
+            <div class="upload">
+                <input type="button" class="uploadButton" value="Browse" />
+                <input type="file" name="upload" accept="image/*" id="myFile" />
+                <span class="fileName">Select file..</span>
+            </div>
+            <input type="submit" class="uploadButton" value="Upload File" onClick="newSVG()"/>
+        </form>
 
     </div>
 
-    <script>
+    <script>  
+      $('input[type=file]').change(function(e) {
+            $in = $(this);
+            $in.next().html($in.val().split('\\')[2]);
+            
+        });
+
+      localStorage["svg"] = "";
+
+      function newSVG() {
+        let uploadedSVG = document.getElementById('myFile').files[0];
+        let fileReader = new FileReader(); 
+        fileReader.readAsText(uploadedSVG); 
+        fileReader.onload = function() {
+          console.log(fileReader.result);
+          localStorage["svg"] = fileReader.result;
+        }; 
+        // url = 'http://localhost:8080/demoPage.html?filename=' + b;
+        // document.location.href = url;
+      }
+
       let metaData;
 
       function loadDemo(demo) {
-        console.log(demo);
         fetch("./examples/" + demo + ".svg")
           .then((resp) => {
             return resp.text();
@@ -144,7 +236,7 @@
                     .style("background-size", "contain")
                     .style("background-repeat", "no-repeat")
                     .style("background-position", "center")
-                    .attr("href", window.location.href + "/demoPage.html#" + metaData[k].svgFileName)
+                    .attr("href", window.location.href + "demoPage.html#" + metaData[k].svgFileName)
                 thisDemo.append("div")
                     .attr("class", "galleryItem")
                     .text(metaData[k].about);
