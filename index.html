@@ -54,13 +54,14 @@
       .galleryDiv{
         width: 100%;
         border: 2px solid white;
-        display: inline-block;
+        display: block;
         margin: 0px 10px 0px 10px;
       }
       .columnName {
         max-width: 30%;
         min-width: 30%;
-        height: 35px;
+        min-height: 35px;
+        overflow: hidden;
         vertical-align: text-bottom;
         text-align: center;
         border: 2px solid white;
@@ -164,7 +165,7 @@ div.upload input[type="file"] {
                 <input type="file" name="upload" accept="image/*" id="myFile" />
                 <span class="fileName">Select file..</span>
             </div>
-            <input type="submit" class="uploadButton" value="Upload File" onClick="newSVG()"/>
+            <input type="submit" class="uploadButton" value="Upload file and try Mystique!" onClick="newSVG()"/>
         </form>
 
     </div>
