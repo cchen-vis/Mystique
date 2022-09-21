@@ -506,7 +506,7 @@
         }
 
         function refresh() {
-            if (localStorage["svg"].length > 0) { loadDemo("artboard");}
+            if (sessionStorage.getItem('svg').length > 0) { loadDemo("artboard");}
             let demo = window.location.hash.replace("#", "");
             if (demo && demo != "") {
                 document.getElementById('source').href = metaData[demo];
@@ -520,7 +520,7 @@
                 return resp.text();
             })
             .then((text) => {
-                if(localStorage["svg"].length > 0) text = localStorage["svg"];
+                if(sessionStorage.getItem('svg').length > 0) text = sessionStorage.getItem('svg');
                 undoStack = [];
                 redoStack = [];
                 atlasSG_histroy = [];
