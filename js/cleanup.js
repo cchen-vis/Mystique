@@ -48,7 +48,6 @@ function flattenSVG(svgString) {
     }
 
     let texts_processed = [];
-    console.log(groups['text'])
     if ('text' in groups) {
         let texts = groups['text']
         if ('tspan' in groups)
