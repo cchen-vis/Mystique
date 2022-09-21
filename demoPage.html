@@ -520,7 +520,7 @@
                 return resp.text();
             })
             .then((text) => {
-                if(sessionStorage.getItem('svg').length > 0) text = sessionStorage.getItem('svg');
+                if(sessionStorage.getItem('svg') ? sessionStorage.getItem('svg').length > 0 : false) text = sessionStorage.getItem('svg');
                 undoStack = [];
                 redoStack = [];
                 atlasSG_histroy = [];
