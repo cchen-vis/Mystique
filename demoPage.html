@@ -146,10 +146,18 @@
             border: #ccc 1px solid;
         }
 
-        #gallery {
+        #galleryContainer {
+            margin: 30px 0 20px 0;
+            width: calc(98% - 0px);
+            text-align: center;
             position: absolute;
             top: 50px;
             left: 0px;
+        }
+
+        #gallery {
+            width: 80%;
+            text-align: center;
         }
 
         .rbox1 {
@@ -466,10 +474,12 @@
     </style>
 </head>
 <body ondrop="drop(event)" ondragover="allowDrop(event)">
-    <div class="pages" style="display:block;">
+    <div class="pages" style="display:block; position:relative; text-align:center;">
         <a class="a1" id="mystiqueLink"> Mystique </a>
-        <a class="a2" id="homeLink"> Home </a>
+        <div style="display:inline-block; position:absolute; right:15%;">
+        <a class="a2" id="homeLink" > Home </a>
         <a class="a2" id="galleryLink"> Gallery </a>
+        </div>
         <!-- <a class="a2"> Try you own SVG! </a> -->
     </div>
     <div style="display:none;">
@@ -480,7 +490,7 @@
         </svg>
     </div>
     <div id="galleryContainer">
-        <div id="gallery" style="visibility: visible;">
+        <div id="gallery" style="visibility: visible; margin-left:auto; margin-right:auto; text-align: center;">
         </div>
     </div>
     <div id="preprocessUI" style="visibility: hidden;">

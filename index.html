@@ -230,17 +230,19 @@
         <!-- <h1>Mystique</h1>
         <h2>Toward Interactive Reuse of Existing SVG Examples for Easy Chart Authoring</h2>
     </header> -->
-    <div class="pages" style="display:block;">
+    <div class="pages" style="display:block; position:relative; text-align:center;">
       <a class="a1" id="mystiqueLink"> Mystique </a>
-      <a class="a2" id="homeLink"> Home </a>
+      <div style="display:inline-block; position:absolute; right:15%;">
+      <a class="a2" id="homeLink" > Home </a>
       <a class="a2" id="galleryLink"> Gallery </a>
+      </div>
       <!-- <a class="a2"> Try you own SVG! </a> -->
     </div>
     <div class="teaser">
       <!-- <div class="">
       <img src="./teaserOnWeb.jpg">
       </div> -->
-      <div style="width: 65%; margin-left:auto; margin-right:auto; text-align: justify;">
+      <div style="width: 75%; margin-left:auto; margin-right:auto; text-align: justify;">
         <p style="font-family: Garamond; font-size: 20px; color: #2d2b30; line-height: 1.25;">Mystique is an interactive authoring tool for building expressive charts using examples. Mystique enables authors to reuse
         the structure and visual styles of existing SVG charts composed of rectangle marks, eliminating the need to create a chart from scratch.
         It first extracts axes and legend using heuristics, and let the authors correct inference errors through simple interaction. Next, Mystique
@@ -248,7 +250,7 @@
         then guides the authors through a series of steps to specify how these components map to their data. Please take a look at the following demo
         video to see how a treemap bar chart is reused in Mystique.</p>
       </div>
-      <video width=40% controls muted autoplay loop>
+      <video width=65% controls muted autoplay loop>
         <source src="./demoVideo.mp4" type=video/mp4>Your browser does not support the video tag.
       </video>
     </div>
