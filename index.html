@@ -12,16 +12,52 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
       html {
-        margin: 10px 10px 0px 10px;
+        /* margin: 10px 10px 0px 10px; */
         padding: 0px;
         font-family: Arial;
       }
       body {
-        margin:0 15% 0 15%;
-        padding: 0px;
-        background: white;
-        overflow-x: hidden;
+        font: normal 15px/20px Arial, serif;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        min-height: 100%;
+        height: 100%;
+        overflow: hidden;
         overflow-y: auto;
+      }
+      .a1 {
+          font-size: 30px;
+          font-weight: 500;
+          color: #4f0599;
+          text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+              0px 0px 20px #b393d3;
+          margin: 0px 50px 0px 0px;
+          text-decoration: none;
+      }
+
+      .a2 {
+          font-size: 25px;
+          font-weight: 500;
+          color: #553c9a;
+          margin: 0px 50px 0px 0px;
+          text-decoration: none;
+      }
+
+      a:hover {
+          color: #896fd1;
+          cursor: pointer;
+      }
+      .pages {
+          width: calc(98% - 0px);
+          height: 45px;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          margin-left: 15px;
+          margin-top: 15px;
+          /* border: #ccc 1px solid; */
       }
       header img {
         float: left;
@@ -51,61 +87,35 @@
         color: #553c9a;
         margin: 0px 0px 25px 0px;
       }
-      .galleryDiv{
-        width: 100%;
-        min-width: 500px;
-        border: 2px solid white;
-        display: block;
-        margin: 0px 10px 0px 10px;
+      .teaser {
+          position: absolute;
+          top: 75px;
+          text-align: center;
       }
-      .columnName {
-        max-width: 30%;
-        min-width: 30%;
-        min-height: 35px;
-        overflow: hidden;
-        vertical-align: text-bottom;
-        text-align: center;
-        border: 2px solid white;
-        display: inline-block;
-        margin: 0px 10px 0px 10px;
+      .teaser img {
+          max-width: 100%;
+          max-height: 100%;
+          margin: 0px 0px 35px 0px;
       }
-      .galleryItem {
-        max-width: 30%;
-        min-width: 30%;
-        height: 0;
-        padding-bottom: 20%;
-        /* height: 300px; */
-        overflow: hidden;
-        vertical-align: middle;
-        text-align: center;
-        border: 2px solid #eee;
-        display: inline-block;
-        margin: 10px 10px 0px 10px;
+      .wrap {
+        position:relative;
+        margin: 0px 0px 35px 0px;
       }
-      .descpItem {
-        font-family: 'Times New Roman', Times, serif;
-        max-width: 27%;
-        min-width: 27%;
-        height: 0;
-        padding-bottom: 20%;
-        padding-left: 20px;
-        padding-right: 20px;
-        /* height: 300px; */
-        overflow: hidden;
-        vertical-align: middle;
-        text-align: justify;
-        border: 2px solid #eee;
-        display: inline-block;
-        margin: 10px 0px 0px 10px;
+
+      .wrap:before {
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        height:100%;
+        width:100%;
+        background: rgba(229, 222, 239, 0.5);
+        z-index:999;
       }
-      span {
-        display: inline-block;
-        vertical-align: middle;
+      div p {
+        margin: 0px 0px 35px 0px;
       }
-      .galleryItem:hover {
-        box-shadow: 0px 0px 5px #888;
-        cursor: pointer;
-      }
+
       #uploadData {
         margin: 40px 10px 5px 10px;
       }
@@ -179,15 +189,70 @@
     </style>
   </head>
   <body>
-    <header>
-<!--         <img src="img/mystique.png" alt="logo" /> -->
-        <h1>Mystique</h1>
+    <!-- <header> -->
+        <!-- <img src="img/mystique.png" alt="logo" /> -->
+        <!-- below svg from https://codepen.io/jhnsnc/pen/Egyjbo
+        <svg class="specialtext" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 800 200" preserveAspectRatio="xMidYMid meet" style="height: 70; width: 200">
+            <defs>
+              <filter id="texteffect">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="4"></feGaussianBlur>
+                <feComponentTransfer>
+                  <feFuncA type="linear" slope="1.5" intercept="0"></feFuncA>
+                </feComponentTransfer>
+                <feComposite result="outer" in2="SourceGraphic" operator="out"></feComposite>
+                <feGaussianBlur result="pre-inner" in="SourceGraphic" stdDeviation="2"></feGaussianBlur>
+                <feComposite in="SourceGraphic" in2="pre-inner" operator="out"></feComposite>
+                <feComponentTransfer result="inner">
+                  <feFuncA type="linear" slope="7.5" intercept="0"></feFuncA>
+                </feComponentTransfer>
+                <feMerge>
+                  <feMergeNode in="outer"></feMergeNode>
+                  <feMergeNode in="inner"></feMergeNode>
+                </feMerge>
+                <feGaussianBlur stdDeviation="1"></feGaussianBlur>
+              </filter>
+              <linearGradient id="gradient" color-interpolation="sRGB" spreadMethod="repeat" x1="0" x2="0.5" y1="0.02" y2="0">
+                <stop stop-color="#ef50d5" offset="0%"></stop>
+                <stop stop-color="#15f0f2" offset="33%"></stop>
+                <stop stop-color="#f2a415" offset="66%"></stop>
+                <stop stop-color="#ef50d5" offset="100%"></stop>
+              </linearGradient>
+              <mask id="textMask">
+                <g filter="url(#texteffect)">
+                  <rect x="10" y="20" width="730" height="10" fill="#fff"></rect>
+                  <rect x="10" y="170" width="730" height="10" fill="#fff"></rect>
+                  <text id="text" x="375" y="150" text-anchor="middle" fill="#fff">MYSTIQUE</text>
+                </g>
+              </mask>
+            </defs>
+            <rect id="fill" mask="url(#textMask)" fill="url(#gradient)" x="0" y="0" width="4000" height="200"></rect>
+          </svg> -->
+        <!-- <h1>Mystique</h1>
         <h2>Toward Interactive Reuse of Existing SVG Examples for Easy Chart Authoring</h2>
-    </header>
-    <div id="gallery">
-
+    </header> -->
+    <div class="pages" style="display:block;">
+      <a class="a1" id="mystiqueLink"> Mystique </a>
+      <a class="a2" id="galleryLink"> Gallery </a>
+      <!-- <a class="a2"> Try you own SVG! </a> -->
     </div>
-    <div id="uploadData">
+    <div class="teaser">
+      <div class="">
+      <img src="./teaserOnWeb.jpg">
+      </div>
+      <div style="width: 65%; margin-left:auto; margin-right:auto; text-align: justify;">
+        <p style="font-family: Garamond; font-size: 20px; color: #2d2b30; line-height: 1.25;">Mystique is an interactive authoring tool for building expressive charts using examples. Mystique enables authors to reuse
+        the structure and visual styles of existing SVG charts composed of rectangle marks, eliminating the need to create a chart from scratch.
+        It first extracts axes and legend using heuristics, and let the authors correct inference errors through simple interaction. Next, Mystique
+        deconstructs the chart content into semantic components—groups, layouts, encodings, and graphical constraints. Its wizard assistant
+        then guides the authors through a series of steps to specify how these components map to their data. Please take a look at the following demo
+        video to see how a treemap bar chart is reused in Mystique.</p>
+      </div>
+      <video width=40% controls muted autoplay loop>
+        <source src="./DemoVideo.mp4" type=video/mp4>Your browser does not support the video tag.
+      </video>
+    </div>
+    
+    <!-- <div id="uploadData">
         <h2> Experimental Feature: Upload Your Own SVG</h2>
         <h3> You can upload an SVG file as the input example and reuse it on your own dataset with Mystique. The SVG file needs to satisfy the following requirements:
             <ol>
@@ -198,9 +263,9 @@
                     It needs to contain complete style information (e.g., fill and stroke). If such information is sometimes contained in the CSS file associated with the webpage in which the SVG is embedded in, you need to add this information to the SVG file. 
                 </li>
             </ol>
-        </h3>
+        </h3> -->
         <!-- solution from http://jsfiddle.net/umhva747/ -->
-        <form action="demoPage.html" id="uploadForm"> 
+        <!-- <form action="demoPage.html" id="uploadForm"> 
             <div class="upload">
                 <input type="button" class="uploadButton" value="Browse" />
                 <input type="file" name="upload" accept="image/*" id="myFile" />
@@ -209,9 +274,12 @@
             <input type="submit" class="uploadButton" value="Upload file and try Mystique!" onClick="newSVG()"/>
         </form>
 
-    </div>
+    </div> -->
 
     <script>  
+      d3.select("#galleryLink").attr("href", window.location.href + "demoPage.html");
+      d3.select("#mystiqueLink").attr("href", window.location.href);
+
       $('input[type=file]').change(function(e) {
             $in = $(this);
             $in.next().html($in.val().split('\\')[2]);
@@ -249,43 +317,7 @@
       }
 
       $(document).ready(() => {
-        fetch("demos.json")
-          .then((resp) => {
-            return resp.text();
-          })
-          .then((text) => {
-            let thisDemo = d3.select("#gallery")
-                    .append("div")
-                    .attr("class", "galleryDiv")   
-            thisDemo.append("div").attr("class", "columnName").html("<b>Example</b> <br>(click to open the source page)");
-            thisDemo.append("div").attr("class", "columnName").html("<b>New chart after reusing</b> <br>(click to try Mystique with this example)");
-            thisDemo.append("div").attr("class", "columnName").html("<b>Explanation of the new chart</b> <br> (Instructions on object-data mappings)");
-            metaData = JSON.parse(text);
-            for (let k of Object.keys(metaData)) {
-                let thisDemo = d3.select("#gallery")
-                    .append("div")
-                    .attr("class", "galleryDiv")   
-                thisDemo.append("a")
-                    .attr("class", "galleryItem")
-                    .style("background", "white")
-                    .style("background-image", 'url("galleryImg/' + metaData[k].svgFileName + '_before.png")')
-                    .style("background-size", "contain")
-                    .style("background-repeat", "no-repeat")
-                    .style("background-position", "center")
-                    .attr("href", metaData[k].url)
-                thisDemo.append("a")
-                    .attr("class", "galleryItem")
-                    .style("background", "white")
-                    .style("background-image", 'url("galleryImg/' + metaData[k].svgFileName + '_after.png")')
-                    .style("background-size", "contain")
-                    .style("background-repeat", "no-repeat")
-                    .style("background-position", "center")
-                    .attr("href", window.location.href + "demoPage.html#" + metaData[k].svgFileName)
-                thisDemo.append("div")
-                    .attr("class", "descpItem")
-                    .html("<span>" + metaData[k].about + "</span>");
-            }
-          });
+        
       });
     </script>
   </body>
