@@ -78,7 +78,7 @@
             text-decoration: none;
         }
 
-        a:hover {
+        .a2:hover {
             color: #896fd1;
             cursor: pointer;
         }
@@ -468,6 +468,7 @@
 <body ondrop="drop(event)" ondragover="allowDrop(event)">
     <div class="pages" style="display:block;">
         <a class="a1" id="mystiqueLink"> Mystique </a>
+        <a class="a2" id="homeLink"> Home </a>
         <a class="a2" id="galleryLink"> Gallery </a>
         <!-- <a class="a2"> Try you own SVG! </a> -->
     </div>
@@ -579,7 +580,7 @@
     <div id="draggedTblCell" style="visibility: hidden; padding: 5px; position: absolute;background-color: #D7EBCC; font-size: 20px;pointer-events: none;"></div>
     <script>
         d3.select("#galleryLink").attr("href", window.location.href.indexOf("#") > 0 ? window.location.href.split("#")[0] : window.location.href.indexOf("/") > 0 ? window.location.href : window.location.href + "/demoPage.html");
-        d3.select("#mystiqueLink").attr("href", d3.select("#galleryLink").attr("href").split("demo")[0]);
+        d3.select("#homeLink").attr("href", d3.select("#galleryLink").attr("href").split("demo")[0]);
         window.onhashchange = refresh;
         let uploaded = false;
         let metaData;

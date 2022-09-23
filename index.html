@@ -45,7 +45,7 @@
           text-decoration: none;
       }
 
-      a:hover {
+      .a2:hover {
           color: #896fd1;
           cursor: pointer;
       }
@@ -232,13 +232,14 @@
     </header> -->
     <div class="pages" style="display:block;">
       <a class="a1" id="mystiqueLink"> Mystique </a>
+      <a class="a2" id="homeLink"> Home </a>
       <a class="a2" id="galleryLink"> Gallery </a>
       <!-- <a class="a2"> Try you own SVG! </a> -->
     </div>
     <div class="teaser">
-      <div class="">
+      <!-- <div class="">
       <img src="./teaserOnWeb.jpg">
-      </div>
+      </div> -->
       <div style="width: 65%; margin-left:auto; margin-right:auto; text-align: justify;">
         <p style="font-family: Garamond; font-size: 20px; color: #2d2b30; line-height: 1.25;">Mystique is an interactive authoring tool for building expressive charts using examples. Mystique enables authors to reuse
         the structure and visual styles of existing SVG charts composed of rectangle marks, eliminating the need to create a chart from scratch.
@@ -278,7 +279,7 @@
 
     <script>  
       d3.select("#galleryLink").attr("href", window.location.href + "demoPage.html");
-      d3.select("#mystiqueLink").attr("href", window.location.href);
+      d3.select("#homeLink").attr("href", window.location.href);
 
       $('input[type=file]').change(function(e) {
             $in = $(this);
