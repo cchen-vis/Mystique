@@ -122,8 +122,81 @@ function proceed() {
 
     schema = inferTblSchema(atlasSceneGraph);
     console.log("table columns", schema);
-    d3.select("#tblSchemaInfo").text("Your dataset should have at least " + schema["categorical"] + " categorical columns and at least "  + schema["quantitative"] + " quantitative columns.");
+    d3.select("#tblSchemaInfo").text("Your dataset should have at least " + schema["categorical"] + " categorical and at least "  + schema["quantitative"] + " quantitative columns.");
     loadReuseUI();
+}
+
+function getSampleData() {
+    let headers = [], cateVals = [], quantVals = [];
+
+    for (let i = 2; i < steps.length; i++) {
+        //if (steps[i].task !== "join") break;
+        let axis = undefined; 
+        if (steps[i].xAxis) {
+            axis = steps[i].xAxis;
+        } else if (steps[i].yAxis) {
+            axis = steps[i].yAxis;
+        } 
+        if (!axis) continue;
+        if ((axis.fieldType === "string" || axis.fieldType === "date") && steps[i].axisLabels && steps[i].axisLabels.length > 0) {
+            let uniqueVals = [...new Set(steps[i].axisLabels.map(d => d.content))];
+            cateVals.push(uniqueVals);
+        } else if (axis.fieldType === "number" && steps[i].axisLabels && steps[i].axisLabels.length > 0) {
+            quantVals.push(axis.labels.map(d => parseFloat(d.content) ? parseFloat(d.content) : Math.floor(Math.random() * 1000) ));
+        }
+    }
+
+    let missingCateVals = schema["categorical"] - cateVals.length;
+    for (let i = 0; i < missingCateVals; i++) {
+        let vals = [], initials = ['a', 'b', 'c'];
+        for (let j = 0; j < 3; j++) {
+            vals.push(initials[j]+Math.random().toString(36).substring(2, 7));
+        }
+        cateVals.push(vals);
+    }
+
+    //generate header
+    for (let i = 0; i < schema["categorical"]; i++) {
+        headers.push("Category"+(i+1));
+    }
+
+    for (let i = 0; i < schema["quantitative"]; i++) {
+        headers.push("Numeric"+(i+1));
+    }
+
+    //generate categorical data
+    let csvData = [];
+    permute(cateVals, [], csvData);
+
+    //generate numeric data
+    for (let row of csvData) {
+        for (let i = 0; i < schema["quantitative"]; i++)
+            row.push(Math.floor(Math.random() * 1000));
+    }
+
+    csvData.unshift(headers);
+    // console.table(csvData);
+
+    //prepare for downloading
+    let temp = csvData.map(d => d.join(","));
+    temp = temp.join("\n");
+    const a = document.getElementById('downloadSampleData');
+    a.href = URL.createObjectURL(new Blob([temp], {type: 'text/plain'}));
+    a.setAttribute('download', 'sampleData.csv');
+    a.click();
+}
+
+function permute(arrays, prepend, results) {
+    if (arrays.length == 1) {
+        for (let v of arrays[0]) {
+            results.push(prepend.concat([v]));
+        }
+        return;
+    } else {
+        for (let v of arrays[0]) {
+            permute(arrays.slice(1), prepend.concat([v]), results);
+        }
+    }
 }
 
 function inferTblSchema(scene) {
@@ -160,7 +233,7 @@ function inferTblSchema(scene) {
     }
     // console.log(levels);
     // console.log(encodedFields);
-    return {"categorical": Math.max(levels, encodedFields["categorical"]), "quantitative": encodedFields["quantitative"]};
+    return {"categorical": Math.max(levels, encodedFields["categorical"]), "quantitative": encodedFields["quantitative"], "levels": levels};
 }
 
 function save() {

@@ -57,6 +57,7 @@
         for (let i = 0; i < xAxisInfo.length; i++) {
             layers[i + 2 + xIdx].xAxis = xAxisInfo[i].axis;
             layers[i + 2 + xIdx].axisLevel = xAxisInfo.length - i;
+            layers[i + 2 + xIdx].axisLabels = xAxisInfo[i].labels;
             //layers[i + 2 + xIdx].xAxis.orientation = xAxisInfo[i].axis.labels[0].y > atlasSceneGraph.bounds.bottom ? "bottom" : "top";
         }
     }
@@ -75,7 +76,7 @@
 
     let numRectsWithinGlyph = 1;
     for (let l of layers) {
-        steps.push({"task": "join", "item": l.item.id, "type": l.item.type == "rect" ? "rect" : "group", "xAxis": l.xAxis, "yAxis": l.yAxis, "axisLevel": l.axisLevel});
+        steps.push({"task": "join", "item": l.item.id, "type": l.item.type == "rect" ? "rect" : "group", "xAxis": l.xAxis, "yAxis": l.yAxis, "axisLevel": l.axisLevel, "axisLabels": l.axisLabels});
         if (l.item.type === "glyph") {numRectsWithinGlyph = layers.length - layers.indexOf(l) - 1; isGlyph = true; widthEncScale = undefined; heightEncScale = undefined; break;}
         else isGlyph = false;
     }
@@ -186,10 +187,13 @@ function getAxisInfo(o) {
         if (axis.labels.length > 0) {
             if (axis.upperLevels) {
                 for (let level of axis.upperLevels) {
-                    axisInfo.unshift({count: level.length, axis: axis});
+                    // let a = Object.assign({}, axis);
+                    // a["labels"] = level;
+                    //axisInfo.unshift({count: level.length, axis: a});
+                    axisInfo.unshift({count: level.length, axis: axis, labels: level});
                 }
             }
-            axisInfo.push({count: axis.labels.length, axis:axis});
+            axisInfo.push({count: axis.labels.length, axis:axis, labels: axis.labels});
         }
     }
     return axisInfo;
