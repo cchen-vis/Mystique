@@ -131,19 +131,25 @@ function getSampleData() {
 
     for (let i = 2; i < steps.length; i++) {
         //if (steps[i].task !== "join") break;
-        let axis = undefined; 
+        let axes = []; 
         if (steps[i].xAxis) {
-            axis = steps[i].xAxis;
-        } else if (steps[i].yAxis) {
-            axis = steps[i].yAxis;
-        } 
-        if (!axis) continue;
-        if ((axis.fieldType === "string" || axis.fieldType === "date") && steps[i].axisLabels && steps[i].axisLabels.length > 0) {
-            let uniqueVals = [...new Set(steps[i].axisLabels.map(d => d.content))];
-            cateVals.push(uniqueVals);
-        } else if (axis.fieldType === "number" && steps[i].axisLabels && steps[i].axisLabels.length > 0) {
-            quantVals.push(axis.labels.map(d => parseFloat(d.content) ? parseFloat(d.content) : Math.floor(Math.random() * 1000) ));
+            axes.push(steps[i].xAxis);
         }
+        if (steps[i].yAxis) {
+            axes.push(steps[i].yAxis);
+        } 
+        if (axes.length === 0) continue;
+        for (let axis of axes) {
+            if ((axis.fieldType === "string" || axis.fieldType === "date") && steps[i].axisLabels && steps[i].axisLabels.length > 0) {
+                let uniqueVals = [...new Set(steps[i].axisLabels.map(d => d.content.replace(",", " ")))];
+                cateVals.push(uniqueVals);
+            } else if (axis.fieldType === "number" && steps[i].axisLabels && steps[i].axisLabels.length > 0) {
+                quantVals.push(axis.labels.map(d => parseFloat(d.content) ? parseFloat(d.content) : Math.floor(Math.random() * 1000) ));
+            }
+        }
+    }
+    if (legend && legend.type == "discrete" && legend.mapping) {
+        cateVals.push(Object.keys(legend.mapping).map(d => d.replace(",", " ")));
     }
 
     let missingCateVals = schema["categorical"] - cateVals.length;

@@ -65,6 +65,7 @@
         for (let i = 0; i < yAxisInfo.length; i++) {
             layers[i + 2 + yIdx].yAxis = yAxisInfo[i].axis;
             layers[i + 2 + yIdx].axisLevel = yAxisInfo.length - i;
+            layers[i + 2 + yIdx].axisLabels = yAxisInfo[i].labels;
             //layers[i + 2 + yIdx].yAxis.orientation = yAxisInfo[i].axis.labels[0].x < atlasSceneGraph.bounds.left ? "left" : "right";
         }
     }
